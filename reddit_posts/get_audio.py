@@ -27,7 +27,7 @@ if __name__ == "__main__":
         body = get_reddit_post_info(reddit_post_url)
 
         # Use the first three words of the title as the filename
-        filename = "reddit_post.wav"
+        filename = "../reddit_audio.wav"
         text_to_speech(f"{body}", output_file=filename)
 
     except Exception as e:

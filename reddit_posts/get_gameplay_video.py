@@ -5,7 +5,7 @@ import os
 
 def download_and_crop_youtube_video(video_url, max_duration=60):
     try:
-        output_dir = 'reddit_videos'
+        output_dir = '../reddit_videos'
         os.makedirs(output_dir, exist_ok=True)
         
         # Download YouTube video
